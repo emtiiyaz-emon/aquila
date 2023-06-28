@@ -19,3 +19,11 @@ if(function_exists('wp_body_open')){
     wp_body_open();
 }
 ?>
+
+<div class="site" id="page">
+    <header id="main-header" class="site-header" role="banner">
+        <?php get_template_part('template-part/header/nav'); ?>
+    </header>
+
+    <div id="content" class="site-content">
+        
